@@ -1,7 +1,7 @@
 ------Using run_analysis.R------
 
 run_analysis() is an R script which will create a tidy data set out of a folder called "UCI HAR Dataset" in the same directory.
-In order to run run_analysis(), the "dplyr" package must be installed and called (present at the top of run_analysis.R file)
+In order to run run_analysis(), the "dplyr" package must be installed and called (present at the top of run_analysis.R file).
 run_analysis() uses the following order of operations -
 
 * Creates a one column data frame out of "subject_test.txt" from the "test" folder signifying a set of subjects
