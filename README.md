@@ -15,5 +15,5 @@ run_analysis() uses the following order of operations -
 * All remaining columns are relabeled using as prescribed by "features.txt"
 * A new data frame is created which outputs the mean of each measurement for each subject/activity pair
 * A new file called "tidy_data_wearables.txt" is then created from this data frame using write.table()
-* In order to read this file in R, the following line of code - "data <- read.table(file_path, header = TRUE)"    
+* In order to read this file in R, use the following line of code - "data <- read.table(file_path, header = TRUE)"    
 (source: https://class.coursera.org/getdata-012/forum/thread?thread_id=9)
