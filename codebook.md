@@ -1,7 +1,8 @@
 -----Codebook-----
 * Subjects: Categorical variable signifying which subject was being measured. There are 30 total subjects.
 * Activities: Categorical variable signifiying which activity a given subject was participating in during measurement. This includes: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
-* All of the following measurements were represented by their mean per subject per activity in the tidy data set ---
+
+---All of the following measurements were represented by their mean per subject per activity in the tidy data set---
 * tBodyAcc-mean()-X: Continuous variable of mean body acceleration over the X direction normalized into a -1 to 1 range.
 * tBodyAcc-mean()-Y: Continuous variable of mean body acceleration over the Y direction normalized into a -1 to 1 range.
 * tBodyAcc-mean()-Z: Continuous variable of mean body acceleration over the Z direction normalized into a -1 to 1 range.
